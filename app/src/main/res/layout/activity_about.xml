@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutActivity"
+        android:background="@drawable/bg">
+
+    <LinearLayout
+            android:gravity="center"
+            android:id="@+id/l"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Nama : "
+                android:textSize="25sp" />
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Umur : "/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Sekolah : "/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir : "/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Contact : "/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:gravity="center"
+            android:layout_toRightOf="@+id/l"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Isa Ardiansyah"
+                android:textSize="25sp" />
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="16 thn"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMK ISLAM BATU"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batu, 19/08/2003"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0895357080224"/>
+    </LinearLayout>
+</RelativeLayout>

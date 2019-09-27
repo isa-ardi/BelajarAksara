@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:weightSum="10"
+        tools:context=".AksaraJawaActivity" android:orientation="vertical">
+
+    <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                <TextView
+                        android:textColor="@color/cardview_light_background"
+                        android:textStyle="bold"
+                        android:fontFamily="cursive"
+                        android:textSize="50sp"
+                        android:text="Aksara Jawa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <GridLayout
+                    android:padding="14dp"
+                    android:columnOrderPreserved="false"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="1"
+                    android:rowCount="20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ha"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/na"
+                        android:layout_gravity="center"
+                        android:src="@drawable/na"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ca"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ra"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ka"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/da"
+                        android:layout_gravity="center"
+                        android:src="@drawable/da"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ta"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/sa"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/wa"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/la"
+                        android:layout_gravity="center"
+                        android:src="@drawable/la"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/pa"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/dha"
+                        android:layout_gravity="center"
+                        android:src="@drawable/dha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ja"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ya"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/nya"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ma"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ga"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/ba"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ba"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/tha"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <ImageButton
+                        android:background="@color/cardview_light_background"
+                        android:id="@+id/nga"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </GridLayout>
+
+            <Button
+                    android:textColor="@color/cardview_light_background"
+                    android:background="#00FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/kmbl"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kembali ke Menu"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/bg">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:textStyle="bold"
+                android:background="#00FFFFFF"
+                android:textColor="@color/cardview_light_background"
+                android:id="@+id/btnAJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aksara Jawa"/>
+
+        <Button
+                android:textStyle="bold"
+                android:textColor="@color/cardview_light_background"
+                android:background="#00FFFFFF"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sandhangan"/>
+
+        <Button
+                android:textStyle="bold"
+                android:textColor="@color/cardview_light_background"
+                android:background="#00FFFFFF"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasangan"/>
+    </LinearLayout>
+
+</RelativeLayout>

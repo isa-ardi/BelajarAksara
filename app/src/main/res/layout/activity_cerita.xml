@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="SEJARAH AKSARA JAWA"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dalam aksara Jawa sendiri tidak terlepas dari sejarahnya yang sangat mengagumkan. Ada banyak versi yang menceritakan tentang sejarah singkat dari aksara Jawa ini. Berikut ini merupaka salah satu referensi cerita yang kuat yang menceritakan legenda dari aksara Jawa ini."/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="AWAL CERITA AJI SAKA"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pada awal cerita ada seseorang kesatria yang gagah berani dan sakti mandraguna. Belaiu memiliki dua orang abdi dalem yang sangat setia kepadanya. Mereka berdua bernama Dora dan Sembada. Suatu ketika sang Aji Saka sedang melakukan perjalanan menuju sebuah kerajaan yang bernama Medang Kamulan yang saat itu diperintah oleh seorang raja yang suka memakan daging manusia. Raja tersebut bernama Raja Dewata Cengkar, hampir setiap hari raja ini memakan daging manusia. Karena sudah menjadi kebiasaanya, pada rakyatnya pun mulai takut dan resah karena itu. Karena keadaanya yang semakin parah Raja Aji Saka sangat ingin melawan raja tersebut bersama dua punggawanya itu. Singkatnya, sampailah Aji Saka di sebuah hutan yang sudah menjadi salah satu wilayah kerajaan Medang Kamulan. Sebelum Aji Saka memasuki kerajaan itu belau menyeruh salah satu punggawanya untuk tetap tinggal untuk menjaga kris saktinya ia bernama Sembada. Karena sangat taatnya kepada Aji Saka abdinya yang bernama Sembada tersebut dia memegang teguh perintahnya. Sedangkan Dora salah satu abdi yang lain di ajak untuk kesana mengikuti sang Raja Aji Saka untuk menghadapi Raja Dewata Cengkar. Setelah bertemu langsung dengan Prabu Dewata Cengkar, Aji Saka membuat sebuah kesepakatan. Yang di dalam kesepakatan itu tertera bahwa Aji Saka mau di makan dagingnya akan tetapi dengan syarat Prabu Dewata Cengkar harus menyerahkan sebagian wilayahya sebesar sorban yang di bawa oleh Aji Saka. Sang Prabu pun menerima kesepakatan itu, kemudian Aji Saka mengeluarkan sebuah sorban dan menyuruh Prabu Dewata Cengkar untuk mulai mengukur sebatas mana wilayah yang akan di serahkan kepada Aji Saka. Mulai dari situ para raja itupun mulai mengukur luas wilayah dengan salah satu memegang ujung sorban. Prabu Dewata Cengkar mulai berjalan mundur untuk melebarkan sorban tersebut. Setelah sekian lama hingga melewati sebuah gunung sampailah di sebuah jurang tepian laut, karena kecerdikan dan kesaktian dari Aji Saka yang hebat akhirnya dia menggoyangkan sorbanya yang mengakibatkan Prabu Dewata Cengkar dan jatuh kedalam Laut. Para rakyat yang mendengar kabar kematian sang raja bringas itu pun bersorak dan bersuka cita, dan bahkan mengangkat Aji Saka menjadi seorang raja."/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="AWAL PERTIKAIAN PARA KESATRIA"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setelah sekian lama dia ingat bahwa kris saktinya masih di titipkan di pinggiran hutan oleh Sembada punggawanya. Akhirnya Aji Saka memberi perintah kepada Dora untuk mengambil kris sakti dan mengajak kembali Sembada. Akhirnya berangkatlah Dora menuju pinggiran hutan menemui sahabatnya tersebut. Setelah sampai awalnya mereka saling berbincang membahas keadaan diri masing-masing. Dan setelah sekian lama perbincangan tersebut berubah mengarah ke permintaan Dora yang di utus oleh sang raja untuk mengambil kris saktinya. Karena ketaatanya kepada Aji Saka yang sudah memberi titah agar menjaga kris sakti itu agar tidak boleh di ambil siapapun kecuali dirinya sendiri. Akhirnya Sembada pun menolak permintaan Dora karena ingin mengambil kris tersebut. Karena Dora juga sangat menjunjung tinggi perintah dari sang raja terjadilah perdebatan besar hingga mereka sama-sama tidak mau saling mengalah satu sama lain karena mememang teguh perintah atau amanah dari sang Raja Aji Saka. Dan sampai akhirnya mereka bertengkar hingga melakukan baku hantam dan bertempur mati-matian. Karena kesaktian dan kekuatan mereka sama-sama semimbang, hingga suatu ketika mereka yang bertarung lama tewas bersama-sama. Karena di rasa sang utusan tidak kunjung kembali, Aji Saka pun mendengar sedikit cerita bahwa ada dua orang yang sakti bertempur hingga mati-matian di pinggir hutan. Perasaan tidak tenang datang kepada Aji Saka hingga akhirnya dia pergi untuk memastikan. Disitu aji saka pun menangis dan menyesal karena kecerobohanya tersebut. Karena sebab kecerobohanya tersebut serta untuk mengenang kedua abdi dalemnya, maka Aji Saka membuat suatu barisan huruf atau sebuah aksara yang dimana aksara tersebut menceritakan kejadian dimana bertarungnya dua kesatria yang gagah berani karena mempertahankan amanah dari rajanya."/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aksara tersebut berbunyi:"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ha Na Ca Ra Ka = ada dua orang utusan (carakan)"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Da Ta Sa Wa La = saling bertempur mempertahankan amanah"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pa Dha Ja Ya Nya = karena sama tingkat kesaktiannya"/>
+
+        <TextView
+                android:textColor="@color/cardview_light_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma Ga Ba Tha Nga = maka keduanya mati, menjadi bathang (bangkai)."/>
+    </LinearLayout>
+
+</ScrollView>
